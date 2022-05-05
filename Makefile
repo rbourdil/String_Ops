@@ -1,6 +1,6 @@
 NAME = strops
 
-OBJS = main.o add.o diff.o subops.o reverse.o pop.o
+OBJS = main.o add.o diff.o mult.o subops.o reverse.o pop.o
 
 HEAD = strops.h
 

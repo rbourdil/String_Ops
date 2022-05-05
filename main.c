@@ -33,7 +33,7 @@ int	main(int argc, char *argv[])
 		return (-1);
 	res[0] = '\0';
 	add(res, argv[1]);
-	diff(res, argv[2]);
+	mult(res, argv[2]);
 	printf("%s\n", res);
 	return (0);
 }

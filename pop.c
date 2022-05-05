@@ -19,3 +19,12 @@ void	depop(char *s)
 		s++;
 	}
 }
+
+void	append(char *s, char c, int n)
+{
+	while (*s != '\0')
+		s++;
+	while (n-- > 0)
+		*s++ = c;
+	*s = '\0';
+}
